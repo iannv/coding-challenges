@@ -37,10 +37,8 @@ def multi_password_strength_counter(passwords):
 
 # Lista de contraseñas para evaluar
 passwords = ["password", "Pa$$w0rd", "SuperSecurePwd!", "weakpw"]
-# Evaluamos las contraseñas
 results = multi_password_strength_counter(passwords)
 
-# Imprimimos los resultados
 for result in results:
     print(result)
 
